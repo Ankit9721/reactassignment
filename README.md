@@ -1,5 +1,40 @@
-Expense Tracker
-A simple mobile application built with the intention of providing a clean, responsive and attractive UI for entering and managing expenses.![add-transaction](https://github.com/Ankit9721/reactassignment/assets/89348269/be62e464-3358-45aa-9699-c48c15e11cf2)
-![categories](https://github.com/Ankit9721/reactassignment/assets/89348269/bf7f7b4f-603a-41d9-833a-d4291c8a4486)
-![home-screen](https://github.com/Ankit9721/reactassignment/assets/89348269/54a2a2f3-8b11-4dcf-a674-ae3238425db8)
-![transactions](https://github.com/Ankit9721/reactassignment/assets/89348269/509b4021-362b-4572-a293-a0e58e9d9b79)
+# About Project
+
+- This project is a mobile app made using React native with Expo.
+- It Home budget mobile budget app.
+- It only contains 2 screens.
+  - One screen to enter budget.
+  - One screen to see list of entered budget.
+
+## Tools Used
+
+- Redux - For State management.
+- AsyncStorage - To persist data. It stores data locally.
+- redux-thunk - To handle asynchronous calls.
+
+  Storing data inside AsyncStorage is an asynchronous activity, that's why we need redux-thunk.
+
+- react-native-paper - For styling.
+  It gives a feel of material UI.
+- uuid - It generates random and unique ids.
+
+  As we are storing data in AsyncStorage, ids will not get automatically generated. So we are using uuid to generate unique ids for every budget entry.
+
+# Application Screenshots
+
+### Budget Entry Screen
+
+<img src="AppScreenshots/BudgetEntryScreen.jpg" width="300">
+
+### Empty Form Submission
+
+<img src="AppScreenshots/BudgetEntryScreenEmptyFormSubmit.jpg" width="300">
+
+### Form with values
+
+<img src="AppScreenshots/BudgetEntryScreenWithValues.jpg" width="300">
+
+### Budget List screen
+
+<img src="AppScreenshots/BudgetListScreen.jpg" width="300">
+
